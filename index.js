@@ -60,7 +60,7 @@ function comecar(){
     }
     
     if (!check(chute)){
-        alert(`Opção inválida.`);
+        alert(`Digite uma cor válida.`);
     } else if (chute > opcaoCerta) {
         alert(`Desculpe! Sua cor é menor em ordem alfabética do que a que eu pensei.\nPor favor, tente denovo.`);
     } else if (chute < opcaoCerta){
