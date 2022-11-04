@@ -48,10 +48,6 @@ function check(chute) {
 function comecar(){
   while (true){
     let chute = prompt(`Estou pensando em uma dessas cores:\n\n${opcoesDeCores[0]}, ${opcoesDeCores[1]}, ${opcoesDeCores[2]}, ${opcoesDeCores[3]}, ${opcoesDeCores[4]}, ${opcoesDeCores[5]}, ${opcoesDeCores[6]}, ${opcoesDeCores[7]}, ${opcoesDeCores[8]}, ${opcoesDeCores[9]}\n\nQual dessas cores eu estou pensando?`);
-
-    if (chute == 'stop'){
-        return false;
-    } 
     
     if (opcaoCerta == chute) {
         document.body.style.backgroundColor = opcaoCerta;
